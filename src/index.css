@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,76 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0efeb;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  background-color: #6a040f;
+  min-height: 150px;
+  color: #f1faee;
+}
+
+
+.page-link {
+  color: #6a040f;
+}
+
+.page-item.active .page-link {
+  background-color: #6a040f;
+  border-color: #6a040f;
+}
+
+.search-box__label {
+  color: #6a040f;
+  font-size: large;
+}
+
+#searchBox:focus {
+  border-color: #6a040f;
+}
+
+.card__side {
+  background-color: #6a040f;
+  color: #fff;
+  padding: 1rem;
+  width: 45px;
+  border-bottom: 5px solid #ffb703;
+  margin: 0.4rem 0;
+}
+
+.card__main {
+  flex: 1;
+  word-wrap: break-word;
+}
+
+.card__main:nth-child(2) {
+  color: #6a040f;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-small {
+  font-size: 80%;
+}
+
+.highlighter {
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2rem;
+  padding: 0.5rem;
+  /* transform: rotate(20deg); */
+}
+
+.text-bold {
+  font-weight: bolder;
 }
