@@ -33,8 +33,11 @@ function Profiles() {
 
   useEffect(() => {
     handleSearch();
-    applyFilters()
-  }, [searchValue, filters]);
+  }, [searchValue]);
+
+  useEffect(() => {
+    applyFilters();
+  }, [filters]);
 
   const handleSearch = () => {
     const newRecords = records.records.profiles.filter(
